@@ -5,7 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto:400,700');
 
+body{
+    background: url(../img/sayagata-400px.png);
+}
+
 /* Color Palette */
+
 .color-1 {
     background: cornflowerblue;
     }
@@ -25,6 +30,7 @@
 /* Textures or Patterns*/
 .pattern-1{
     background: url(../img/sayagata-400px.png);
+    
 }
 .pattern-2{
     background: url(../img/mirrored_squares.png);
@@ -46,7 +52,20 @@
 
 
 /* Navigation */
-
+a:link,
+a:visited{
+    color: #da9100;
+    text-decoration: none;
+}
+a:focus {
+    background: black;
+}
+a:hover {
+    background: cornflowerblue;
+}
+A:active {
+    background: black;
+}
 
 /* Typography */
 h1 {
@@ -66,6 +85,7 @@ h3 {
 }
 p {
     font-family: 'Noto Serif', serif;
+    color: black
 }
 
 
