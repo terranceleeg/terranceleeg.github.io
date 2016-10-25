@@ -1,0 +1,47 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+.color-1 {
+    background: cornflowerblue;
+    }
+.color-2 {
+    background: #D3D3D3	;
+}
+.color-4{
+    background: black;
+}
+.color-5{
+    background: white;
+}
+.color-3{
+    background: #da9100;
+}
+
+/* Textures or Patterns*/
+.pattern-1{
+    background: url(../img/sayagata-400px.png);
+}
+.pattern-2{
+    background: url(../img/mirrored_squares.png);
+}
+.pattern-3{
+    background: url(../img/bright_squares.png);
+}
+.pattern-4{
+    background: url(../img/woven.png);
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+
+
+/* Typography */
+
+
