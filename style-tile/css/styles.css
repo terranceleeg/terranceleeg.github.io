@@ -2,6 +2,9 @@
 /* YOUR STYLES */
 /***************/
 
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto:400,700');
+
 /* Color Palette */
 .color-1 {
     background: cornflowerblue;
@@ -32,6 +35,9 @@
 .pattern-4{
     background: url(../img/woven.png);
 }
+.pattern-5{
+    background: url(../img/random_grey_variations.png);
+}
 
 /* Imagery */
 
@@ -43,5 +49,24 @@
 
 
 /* Typography */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;  
+    text-align: left;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: cornflowerblue;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: cornflowerblue;
+    font-weight: 700;
+}
+p {
+    font-family: 'Noto Serif', serif;
+}
+
 
 
