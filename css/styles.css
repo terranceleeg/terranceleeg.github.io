@@ -1,12 +1,126 @@
-h1{
-        color: steelblue
-}
-P{
-    color: white
-}
+
 body {
-  background: url("../img/hixs_pattern_evolution.png");
+	height: 100%;
+	background: url("../img/hixs_pattern_evolution.png")  center center;
+	
+	margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
 }
-img{
-    width: 50%
+
+.animatedlink a{
+  color: cornflowerblue;
+  transition: ease .5s;
+}
+.animatedlink a:hover {
+  color: #a2a2a2;
+  transition: ease .5s;
+}
+
+
+.bgheader {
+	background: #D3D3D3;
+	border-top: cornflowerblue .4375em single;
+	box-shadow: .75em .1875em 7.25em .375em #1c1c1c;
+	color: #D3D3D3;
+    width: 100%;
+    height: 7.25em;
+}
+
+h1 {
+	color: cornflowerblue;
+	font-size: 3.9375em;
+    z-index: 1;
+    max-width: 90%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 900
+
+}
+
+.bgarticle {
+	background: #D3D3D3;
+	box-shadow: 12px 3px 116px 6px #1c1c1c;
+}
+section p {
+
+    margin-bottom: 3.125em;
+    background: white;
+    padding: .625em
+
+}
+
+.edu p {
+	margin-right: 3.125em;
+    margin-left: 1.875em;
+
+ 	
+ }
+
+ article ul {
+ 	padding: .625em;
+    background: white;
+ }
+ article li {
+ 	margin-top: 1.25em;
+ 	font-size: 1em;
+ 	list-style: none;
+    font-family: 'Noto Serif', serif; 
+ }
+ 
+.bottomborder {
+ 	border-bottom: cornflowerblue .25em double;
+ }
+
+
+header div h2 {
+	line-height: 2.1875;
+}
+
+img, iframe, object, embed, video, audio {
+ width 100%;
+ max-width: 100%;
+}
+
+nav li {
+    text-align: center;
+	margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+	list-style: none;
+    display: inline;
+    padding: 5px 10px 10px 10px;
+    width: 90%;
+    max-width: 90%;
+    font-family: 'Noto Serif', serif;
+}
+li {
+	list-style: none;
+    text-align: left;
+    font-family: 'Noto Serif', serif;
+}
+/* font */
+h4 {
+	font-size: .875em;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px 0px
+}
+p {
+	margin-top: .625em;
+	line-height: 1.4375em;
+	font-size: 1em;
+    text-align: left;
+    font-family: 'Noto Serif', serif;
+}
+h2 {
+	font-size: 1.25em;
+	color: #da9100;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+	font-size: 1.0625em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
 }
