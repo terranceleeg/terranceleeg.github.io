@@ -9,40 +9,32 @@ body {
     display: block;
 }
 
-.animatedlink a{
-  color: cornflowerblue;
-  transition: ease .5s;
+nav a:link,
+nav a:visited{
+  background: cornflowerblue;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  transition: background 1s,
+  padding .65s;
 }
-.animatedlink a:hover {
-  color: #a2a2a2;
-  transition: ease .5s;
-}
-
-
-.bgheader {
-	background: #D3D3D3;
-	border-top: cornflowerblue .4375em single;
-	box-shadow: .75em .1875em 7.25em .375em #1c1c1c;
-	color: #D3D3D3;
-    width: 100%;
-    height: 7.25em;
+nav a:hover {
+  background: #a2a2a2;
+  padding-top: .25em;
 }
 
 h1 {
 	color: cornflowerblue;
 	font-size: 3.9375em;
     z-index: 1;
+    width: 90%;
     max-width: 90%;
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 900
-
+    display: flex;
+    flex-wrap: wrap;    
 }
 
-.bgarticle {
-	background: #D3D3D3;
-	box-shadow: 12px 3px 116px 6px #1c1c1c;
-}
 section p {
 
     margin-bottom: 3.125em;
@@ -58,9 +50,10 @@ section p {
  	
  }
 
- article ul {
+ section ul {
  	padding: .625em;
     background: white;
+     
  }
  article li {
  	margin-top: 1.25em;
@@ -74,7 +67,7 @@ section p {
  }
 
 
-header div h2 {
+header h2 {
 	line-height: 2.1875;
 }
 
@@ -82,18 +75,23 @@ img, iframe, object, embed, video, audio {
  width 90%;
  max-width: 90%;
 }
-
+nav {
+    border-radius: 35px;
+}
 nav li {
-    text-align: center;
-	margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-	list-style: none;
-    display: inline;
-    padding: 5px 10px 10px 10px;
-    width: 90%;
-    max-width: 90%;
-    font-family: 'Noto Serif', serif;
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    font-family: 'roboto', sans-serif;
+    margin: 3px auto;
+}
+nav ul {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 li {
 	list-style: none;
@@ -120,6 +118,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 h3 {
+    color: white;
 	font-size: 1.0625em;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -128,8 +127,12 @@ h3 {
 @media screen and (min-width: 20em) { 
 
   /* Diagnostic Styling. */
-	body {
-       background: red;
+    h1 {
+        font-size: 2.9375em;
+    } 
+    body {
+       background: url("../img/hixs_pattern_evolution.png")  ;
+        
 	}
 	
 }
@@ -138,8 +141,8 @@ h3 {
 @media screen and (min-width: 48em)  {
 
   /* Diagnostic Styling. */
-  body {
-       background: green;
+    body {
+       background: url("../img/hixs_pattern_evolution.png")  ;
   }
 
 }
@@ -148,8 +151,8 @@ h3 {
 @media screen and (min-width: 80em) { 
   
   /* Diagnostic Styling. */
-  body {
-       background: blue;
+    body {
+       background: url("../img/hixs_pattern_evolution.png")  ;
   }
 
 }
