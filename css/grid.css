@@ -36,7 +36,7 @@
 }
 
 figure {
-  background: #eee;
+  background: rgba(211,211,211, .5);
   /* Note: Figures have default 1em margin. Optionally override. */
   padding: 1em;
   /* Set `flex-basis` to any value */
@@ -46,7 +46,12 @@ figure {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; 
+  font-family: 'Noto Serif', serif; 
+  border-radius: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 /* Specific Gallery Styling. Have Fun! */
@@ -55,7 +60,7 @@ figure img {
 }
 
 figure p {
-  
+  color: white
 }
 
 /* Lightbox Overlay */
@@ -70,6 +75,7 @@ figure p {
   top: 0;
   left: 0;
   background: rgba(100,149,237,.5);
+  transition: all 1s;
 
   
   
@@ -95,9 +101,9 @@ figure p {
 
 /* Close Button  */
 .overlay a {
-
+  background: rgba(255, 255, 255, .5);
   font-size: 3em;
-  color: black;
+  color: #da9100;
   text-decoration: none;
   
 }
