@@ -65,7 +65,7 @@ footer {
 }
 .footerthankyou {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     z-index: 1;
 }
@@ -230,9 +230,14 @@ h2 {
     animation: rotateInUpLeft 2s
 }
 .homepagebottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     background: white;
     height: 500px;
     width: 100%;
+    position: relative;
+    bottom: 0;
 }
 h3 {
     display: flex;
