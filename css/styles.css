@@ -309,6 +309,7 @@ form{
   flex-flow: column wrap;
   border-radius: 35px;
   margin: auto 10px;
+  margin-bottom: 90px;
 }
 
 label,
