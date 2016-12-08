@@ -46,6 +46,11 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
 }
+.footerthankyou {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 section p {
 
     margin-bottom: 3.125em;
@@ -56,6 +61,26 @@ section p {
 }
 section {
     z-index: 1;
+}
+.thankyou {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.thankyou2 {
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+.gobacknav {
+    padding-left: 300px;
+    margin-bottom: 0;
+}
+.thankyoumargin {
+    margin-top: 300px;
+    background: rgba(255,255,255,.5);
 }
 }
 
