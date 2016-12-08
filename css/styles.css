@@ -9,6 +9,23 @@ body {
     display: block;
 }
 /*animated parts*/
+@keyframes rotateInUpLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.rotateInUpLeft {
+  animation-name: rotateInUpLeft;
+}
 nav a:link,
 nav a:visited{
   background: rgba(100, 149, 237, 0);
@@ -131,7 +148,11 @@ img, .headimg {
 .bottomborder:hover {
     border-bottom:  #da9100 1.25em double;
 }
-
+.white2 {
+    background: rgba(255,255,255,.5);
+    margin-top: 0;
+    animation: rotateInUpLeft 1s;
+}
 .white {
     background: rgba(255,255,255,.5);
     margin-top: 0;
@@ -196,6 +217,22 @@ h2 {
     margin-top: 0;
     padding: 10px;
     padding-left: 50px;
+}
+.homepageheader2 {
+    font-size: 15.9375em;
+    margin-bottom: 40px;
+    animation: rotateInUpLeft 2s
+}
+.homepageheader {
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding: 4px;
+    animation: rotateInUpLeft 2s
+}
+.homepagebottom {
+    background: white;
+    height: 500px;
+    width: 100%;
 }
 h3 {
     display: flex;
