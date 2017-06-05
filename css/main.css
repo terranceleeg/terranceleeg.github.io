@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background: wheat;
+  border-radius: 20%;
+  margin: 2em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  font-family: 'Roboto Slab', serif;
+}
+img, iframe, object, embed, video, audio {
+      
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+  color: cornflowerblue;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1em;
+}
+h3 {
+  margin-top: 0em;
+}
+p {
+  font-size: 0.8em;
+}
+img {
+  border-radius: 50%;
+	max-width: 80%;
+	height: 7em;
+  transition: all 1s;
+ 
+}
+img:hover {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 10%;
+}
+p {
+  display: flex;
+  flex-flow: row wrap;
+  j
+}
+section {
+  margin: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 2em;
+  padding: 1em;
+  background: #ededed;
+  border-bottom: cornflowerblue .25em double;
+  transition: all 2s
+}
+section:hover {
+  margin: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 2em;
+  padding: 1.5em;
+  background: #ededed;
+  border-bottom: cornflowerblue 1em double;
+}
+.halfling {
+  margin: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  padding: 2em;
+  background: #ededed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: cornflowerblue .25em double;
+  transition: all 2s
+}
+.halfling:hover {
+  margin: 2em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  padding: 2.5em;
+  background: #ededed;
+  border-bottom: cornflowerblue 1em double;
+}
+a {
+  margin: ;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+li {
+  margin-bottom: 10px;
+  margin-left: -20px;
+  color: black;
+  transition: all 1s;
+}
+li:hover {
+  color: cornflowerblue;
+}
+@media screen and (min-width: 420px)
+{
+  section {
+  margin: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 2em;
+  padding: 2em;
+  background: #ededed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: cornflowerblue .25em double;
+  transition: all 2s
+}
+  section:hover {
+  margin: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  border-radius: 2em;
+  padding: 2.5em;
+  background: #ededed;
+  border-bottom: cornflowerblue 1em double;
+}
+  body {
+  
+  background: wheat;
+  border-radius: 20%;
+  margin: 2em;
+  display: flex;
+  flex-flow: row  wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  font-family: 'Roboto Slab', serif;
+}
+  img {
+  border-radius: 50%;
+	max-width: 80%;
+	height: 20em;
+  transition: all 1s;
+ 
+}
+  h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  margin-top: 1.5em;
+}
+p {
+  font-size: 1em;
+}
+}
