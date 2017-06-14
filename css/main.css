@@ -26,22 +26,6 @@
 }
 /* mobile */
 @media screen and (max-width: 30em) {
-body {
-  background: url(../img/swirl_pattern.png);
-  border-radius: 20%;
-  margin: 2em;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: flex-start;
-  font-family: 'Roboto Slab', serif;
-}
-img, iframe, object, embed, video, audio {
-      
-}
 .bigcontainer{
     background: rgba(111,111,111,.7);
     margin-top: 2em;
