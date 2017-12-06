@@ -1,0 +1,14 @@
+@media (min-width: 640px){
+    .hamburgermenu{
+        display: none;
+        
+    }
+}
+@media (max-width: 640px){
+    .linemenu{
+        display: none;
+    }
+    img{
+        max-width: 100%;
+    }
+}

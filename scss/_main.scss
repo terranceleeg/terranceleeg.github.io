@@ -1,0 +1,156 @@
+figure{
+}
+//smallernav
+.hamburgermenu{
+    background: #eee;
+    height: 200px;
+}
+//biggernav
+nav{
+    background: #eee;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+.uk-position-right{
+    top: -20px;
+}
+.uk-navbar-nav{
+    padding: 30px;
+}
+.uk-navbar-nav>li>a{
+    color: #6495ED;
+    border-radius: 5%;
+    margin: 5px;
+    transition: all 1s;
+}
+.uk-navbar-nav>li>a:hover{
+    color: #EEE;
+    background: #6495ED;
+    
+}
+nav h1 .uk-heading-primary{
+    font-size: 1.5em;
+    line-height: 1;
+}
+.uk-navbar-nav>li.uk-active>a{
+    color: #EDBC64;
+}
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: rgba(248, 248, 248, .7);
+}
+//end of nav styling
+[class*=uk-width]{
+    width: 30%;
+}
+.uk-grid{
+    margin-left: 0px;
+}
+body{
+    background: rgba(100, 149, 237, .1);
+    background-image: url(../img/black-thread-light.png)
+}
+.navbutton{
+    fill: #6495ED; 
+    transition: all 1s;
+}
+.uk-button:hover .navbutton{
+    fill: #EDBC64;
+}
+.uk-button svg{
+    transition: all 1s;
+}
+.uk-button:hover svg{
+    transform: rotate(90deg);
+}
+.descriptionmobile{
+    margin: 10px;
+    text-align: justify;
+}
+//modal styling
+
+.uk-modal-dialog{
+    background: #64DAED;
+}
+.uk-dropdown-nav>li>a{
+    color: white;
+    transition: all 1s;
+}
+.uk-dropdown-nav>li>a:hover{
+    color: #EDBC64;
+}
+.uk-close{
+    color: white;
+    transition: all 1s;
+}
+.uk-close:hover{
+    color: #EDBC64;
+}
+
+
+
+//end of modal styling
+//lightgallery styling
+.lg-backdrop{
+    background-color: rgba(100,149,237,.45)
+}
+.lg-toolbar{
+    background-color: #EDBC64;
+}
+.lg-outer .lg-thumb-outer{
+    background-color: #EDBC64;
+}
+#lg-counter{
+    color: white;
+}
+.lg-toolbar .lg-icon{
+    color: white;
+}
+.lg-outer .lg-toogle-thumb{
+    background-color: #EDBC64;
+    color: cornflowerblue;
+}
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+    border-color: #6495ED;
+}
+body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object{
+    box-shadow: 10px 10px 25px black;
+}
+//end of lg styling
+.uk-dropdown{
+    background: #EDBC64;
+}
+//card styling
+.uk-card-default{
+    background: rgba(248, 248, 248, .5);
+    
+    transition: all 1s;
+}
+.uk-card-default:hover{
+    box-shadow: 0 5px 15px #6495ED;
+}
+//end card styling
+.uk-button-default{
+    border: none;
+}
+.uk-card-default .uk-card-title{
+    color: #EDBC64;
+}
+img{
+    margin: 0px;
+    transition: all 1s;
+    max-width: 30%;
+}
+img:hover{
+    margin: 10px;
+    color
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+//media queries
+

@@ -4,20 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Terrance Gallaher Jr.</title>
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
     <link rel="stylesheet" href="/css/styles.css" />  
 </head>
     
-<body class="homepage">
-   <nav class="row">   
-       <ul>
-       <li><a href="index.html">HomePage</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a href="contact.html">Contact</a></li>
-        <li><a href="/style-tile/index.html">Style Tile</a></li>
-   </ul>
+<body class="uk-container">
+   <nav uk-grid class="uk-flex-middle hamburgermenu">
+    <a class="uk-button uk-button-default uk-width-1-3@m uk-flex-first" href="#modal-center" uk-toggle><svg class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.43 522.5">
+  <path class="navbutton" d="M255.21 0C114.26 0 0 117 0 261.25S114.26 522.5 255.21 522.5s255.21-117 255.21-261.25S396.16 0 255.21 0zM100.08 132.5a12 12 0 0 1 12-12h284.69a12 12 0 0 1 12 12v41a12 12 0 0 1-12 12H112.08a12 12 0 0 1-12-12zm308.68 268a12 12 0 0 1-12 12H112.08a12 12 0 0 1-12-12v-41a12 12 0 0 1 12-12h284.69a12 12 0 0 1 12 12zM476.11 299H56.89a12 12 0 0 1-12-12v-41a12 12 0 0 1 12-12h419.22a12 12 0 0 1 12 12v41a12 12 0 0 1-12 12z" fill="#6495ed"/>
+  <rect x="100.08" y="120.5" width="308.68" height="65" rx="12" ry="12" fill="#fff"/>
+  <rect x="100.08" y="347.5" width="308.68" height="65" rx="12" ry="12" fill="#fff"/>
+  <rect x="44.89" y="234" width="443.22" height="65" rx="12" ry="12" fill="#fff"/>
+</svg></a>
+
+<div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <ul class="uk-nav uk-dropdown-nav">
+        <li class="uk-nav-header">Portfolio Menu</li>
+        <li class="uk-nav-divider"></li>
+        <li class="uk-active"><a href="#">Portfolio</a></li>
+        <li><a href="https://terranceleeg.github.io/index.html">Home</a></li>
+        <li><a href="https://terranceleeg.github.io/about.html">About</a></li>
+        <li><a href="https://terranceleeg.github.io/contact.html">Contact</a></li>
+    </ul>
+
+    </div>
+</div>
+    <h1 class="uk-width-2-3@m uk-heading-primary" id="primaryheader">Terranceleeg Designs</h1>
+    </nav>
+    <nav class="uk-navbar-container uk-flex-middle uk-flex-first linemenu" uk-navbar>
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="https://terranceleeg.github.io/index.html">Home</a></li>
+            <li><a href="https://terranceleeg.github.io/stand-alone-portfolio/">Portfolio</a></li>
+            <li><a href="https://terranceleeg.github.io/about.html">About</a></li>
+            <li><a href="https://terranceleeg.github.io/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <h1 class="uk-width-2-3@m uk-heading-primary uk-position-right uk-flex" id="primaryheader">Terrance G</h1>
 </nav>
 <section class="white">
 <h1 class="homepageheader2">HI!</h1> 
@@ -35,5 +62,12 @@
 <footer class="footerthankyou">
     <p>&#9400 Terrance gallaher</p>
 </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="js/lightgallery.min.js"></script>
+  <script src="js/scripts.js"></script>
+
 </body>
 </html>  
