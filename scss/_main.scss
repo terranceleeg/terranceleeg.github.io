@@ -32,14 +32,17 @@ nav{
 }
 //end of nav styling
 [class*=uk-width]{
-    width: 30%;
 }
 .uk-grid{
     margin-left: 0px;
 }
 body{
     background: rgba(100, 149, 237, .1);
-    background-image: url(../img/black-thread-light.png)
+    background-image: url(../img/redColaCan.jpg);
+    height: 1000px;
+}
+ol{
+    list-style: none;
 }
 .navbutton{
     fill: #6495ED; 
