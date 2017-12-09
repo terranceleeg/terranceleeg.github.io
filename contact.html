@@ -4,55 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact me</title>
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
     <link rel="stylesheet" href="/css/styles.css" />  
 </head>
-<body class="contact">
-    <nav class="row">   
-       <ul>
-       <li><a href="index.html">HomePage</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
-       <li><a href="contact.html">Contact</a></li>
-        <li><a href="/style-tile/index.html">Style Tile</a></li>
-   </ul>
+<body class="uk-container">
+    <nav uk-grid class="uk-flex-middle hamburgermenu">
+    <a class="uk-button uk-button-default uk-width-1-3@m uk-flex-first" href="#modal-center" uk-toggle><svg class="" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.43 522.5">
+  <path class="navbutton" d="M255.21 0C114.26 0 0 117 0 261.25S114.26 522.5 255.21 522.5s255.21-117 255.21-261.25S396.16 0 255.21 0zM100.08 132.5a12 12 0 0 1 12-12h284.69a12 12 0 0 1 12 12v41a12 12 0 0 1-12 12H112.08a12 12 0 0 1-12-12zm308.68 268a12 12 0 0 1-12 12H112.08a12 12 0 0 1-12-12v-41a12 12 0 0 1 12-12h284.69a12 12 0 0 1 12 12zM476.11 299H56.89a12 12 0 0 1-12-12v-41a12 12 0 0 1 12-12h419.22a12 12 0 0 1 12 12v41a12 12 0 0 1-12 12z" fill="#6495ed"/>
+  <rect x="100.08" y="120.5" width="308.68" height="65" rx="12" ry="12" fill="#fff"/>
+  <rect x="100.08" y="347.5" width="308.68" height="65" rx="12" ry="12" fill="#fff"/>
+  <rect x="44.89" y="234" width="443.22" height="65" rx="12" ry="12" fill="#fff"/>
+</svg></a>
+
+<div id="modal-center" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <ul class="uk-nav uk-dropdown-nav">
+        <li class="uk-nav-header">Main Menu </li>
+        <li class="uk-nav-divider"></li>
+        <li><a href="https://terranceleeg.github.io/stand-alone-portfolio/">Portfolio</a></li>
+        <li class="uk-active"><a href="">Home</a></li>
+        <li><a href="https://terranceleeg.github.io/about.html">About</a></li>
+        <li><a href="https://terranceleeg.github.io/contact.html">Contact</a></li>
+    </ul>
+    </div>
+</div>
+   <h1 class="uk-width-2-3@m uk-heading-primary" id="primaryheader">Contact</h1>
+    </nav>
+    <nav class="uk-navbar-container uk-flex-between linemenu uk-child-width-1-4" uk-navbar>
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li><a href="https://terranceleeg.github.io/index.html">Home</a></li>
+            <li><a href="https://terranceleeg.github.io/stand-alone-portfolio/">Portfolio</a></li>
+            <li><a href="https://terranceleeg.github.io/about.html">About</a></li>
+            <li class="uk-active"><a href="https://terranceleeg.github.io/contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <h1 class="uk-width-2-3@m uk-heading-primary uk-position-right" id="primaryheader">Contact</h1>
 </nav>
-   <section class="contactbg">
-    <h1 class="headingcontact">Contact Me</h1>
-    <h2 class="headingcontact2">terranceleeg@gmail.com</h2>
-    <h2 class="headingcontact2">509.435.2686</h2>
-    <P class="contactp">OR</P>
+   <section class="uk-container">
+    <figure class="uk-grid-small uk-text-center  uk-flex uk-flex-center">
+        <h1 class="headingcontact">Contact Me @</h1>
+    </figure>
+    <figure class="uk-grid-small uk-text-center  uk-flex uk-flex-center">
+        <h2 class="headingcontact2">terranceleeg@gmail.com</h2>
+    </figure>
+           <figure class="uk-grid-small uk-text-center uk-flex uk-flex-center">
+               <P class="contactp">OR</P>
+           </figure>
   
-    <form action="https://formspree.io/terranceleeg@gmail.com"
-      method="POST">
-    <label for="name">NAME</label>  
-    <input type="text" name="name">
-    <label for="_replyto">E-MAIL</label>
-    <input type="email" name="_replyto">
-    <label for="message">SUBJECT</label>
-  <textarea name="message" id="" cols="30" rows="10"></textarea>
-    <input type="submit" value="For Gondor!!">
+    <figure class="uk-grid-small uk-text-center uk-card uk-card-default uk-card-body uk-flex uk-flex-center uk-child-width-1-1">
+        <form action="https://formspree.io/terranceleeg@gmail.com"
+          method="POST">
+    <fieldset class="uk-fieldset">
+
+        <legend class="uk-legend">Name</legend>
+
+        <figure class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Hi, my name is...">
+        </figure>
+        <legend class="uk-legend">E-mail</legend>
+
+        <figure class="uk-margin">
+            <input class="uk-input" type="text" placeholder="Which owl office do you use?">
+        </figure>
+        <legend class="uk-legend">Subject</legend>
+        <div class="uk-margin">
+            <textarea class="uk-textarea" rows="5" placeholder="Why are you contacting me?"></textarea>
+        </div>
+        <input class="uk-button uk-button-secondary uk-button-large" type="submit" value="For Gondor!!">
+    <input type="hidden" name="_next" value="terranceleeg.github.io/thankyou.html" />
+    </fieldset>
     
-    <input type="hidden" name="_next" value="terranceleeg.github.io/thankyou.html" />    
-        
 </form>
+        
+    </figure>
    
     </section> 
-  <footer class="footerthankyou">
-    <ul class="bottomicons">
-  <li class="bottomicons2">
-    <a href="https://www.facebook.com/terrance.gallaher?ref=bookmarks">
-       <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" alt="facebook logo" />
-    </a>
-  </li>
-  <li class="bottomicons2">
-    <a href="https://twitter.com/terranceleeg">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" alt="twitter logo" />
-    </a>
-  </li>
-</ul>  
-    <p>&#9400 Terrance gallaher</p>
-</footer>
+  <figure class=" uk-grid-small uk-text-center uk-flex uk-flex-center  uk-child-width-1-4 uk-margin-top">
+      <a href="https://www.facebook.com/terrance.gallaher" uk-icon="icon: facebook"></a>
+      <a href="https://www.flickr.com/people/155325834@N05/" uk-icon="icon: flickr"></a>
+      <a href="https://github.com/terranceleeg" uk-icon="icon: github"></a>
+      <a href="https://www.instagram.com/terranceleeg/" uk-icon="icon: instagram"></a>
+      <a href="https://www.tumblr.com/blog/terranceleeg" uk-icon="icon:tumblr"></a>
+      
+      
+  </figure>
+ <footer>
+        <p>&#9400 Terrance gallaher</p>
+    </footer>
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>  
